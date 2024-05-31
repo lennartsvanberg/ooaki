@@ -25,13 +25,15 @@
         
         <section class="dropdown-section">
             <label for="sofa-select">Välj din soffa</label>
-            <select id="sofa-select">
+            <select id="sofa-select" onchange="updateSofaOptions()">
+                <option value="">Välj...</option>
                 <option value="dux">Dux</option>
                 <option value="eilersen">Eilersen</option>
                 <option value="engelsen">Engelsen</option>
                 <option value="fogia">Fogia</option>
                 <option value="annan-soffa">Annan soffa</option>
             </select>
+            <select id="sofa-model-select" style="display:none;"></select>
         </section>
         
         <section class="curtain-section">

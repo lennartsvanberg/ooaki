@@ -69,6 +69,10 @@ select {
     border-radius: 5px;
 }
 
+#sofa-model-select {
+    margin-top: 10px;
+}
+
 h1, h2, h3 {
     color: #333;
 }
